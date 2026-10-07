@@ -1,0 +1,11 @@
+-- Zalijepi ovo u ox_inventory/data/items.lua (unutar glavne tabele)
+['grappler'] = {
+    label = 'Grappler',
+    weight = 500,
+    stack = false,
+    close = true,
+    description = 'Kuka za penjanje',
+    server = {
+        export = 'grapple.grappler', -- ime foldera + .grappler
+    },
+},
